@@ -1,0 +1,19 @@
+{
+    "name": "as/php-playground",
+    "description": "play with php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ahmed sayed abdelsalam",
+            "email": "e.eng.ahmedsayed@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.0"
+    }
+}
